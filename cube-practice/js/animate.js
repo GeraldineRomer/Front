@@ -19,6 +19,7 @@ cube.addEventListener("click", () => {
         setTimeout(() => {
             cube.style.animationPlayState = 'running';
             animationPaused = false;
+            optionsContainer.style.display = 'none';
         }, 5000);
     }
 });
